@@ -1,11 +1,7 @@
-import React,{ useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 
 const Navbar : React.FC = () => {
 
-    const [isNavbarActive, setIsNavbarActive] = useState<boolean>(false);
-
-    const navigate = useNavigate();
 
     return(
         <div className="">
